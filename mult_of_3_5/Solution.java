@@ -9,10 +9,7 @@ public class Solution
         long soma = 0;
         for(int i = 3; i < 1000; i++)
         {
-            if(i % 3 == 0 || i % 5 == 0)
-            {
-                soma += i;
-            }
+            if(i % 3 == 0 || i % 5 == 0) soma += i;
         }
         System.out.println(soma);
     }
